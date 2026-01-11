@@ -25,7 +25,7 @@ app.use(express.urlencoded({ extended: true }));
 // CORS (before routes!)
 app.use(
   cors({
-    origin: [ "http://localhost:5173","https://ayurvedab.vercel.app"],l
+    origin: "http://localhost:5173",
     credentials: true,
   })
 );
